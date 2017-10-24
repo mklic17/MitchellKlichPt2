@@ -1,0 +1,65 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  min-width: 540px;
+}
+
+#nonScroll {
+  overflow-y: hidden;
+  min-width: 480px;
+}
+
+.entrance {
+  height: 100%;
+  width: 75%;
+}
+
+#mainPic {
+  border-radius: 50%;
+  width: 60%;
+  height: 60%;
+  -webkit-animation-duration: 1s;
+}
+
+#welcomeText {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+}
+
+.Welcomespacing h4 {
+  line-height: 150%
+}
+
+#welcomeTextSecond {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 2s;
+}
+
+.text {
+  background-color: red;
+}
+
+#entryButton {
+  color: black;
+  text-decoration: none;
+}
+
+#entryButton:hover {
+  color: grey;
+}
+
+#totalEntry {
+  height: 80vh;
+  width: 100vw;
+}
+
+#placeHolder {
+  height: 25vh;
+  width: 100vw;
+}
+
+.page {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
