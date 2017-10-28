@@ -7,6 +7,19 @@ $('document').ready(function() {
   $(this).scrollTop(0);
   $('a#entryButton').on('click', function(ev) {
     $('#nonScroll').removeAttr('id');
+
+
+    var x = document.getElementById("myNav");
+    // debugger
+    // console.log(x)
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+
+
+
     if (this.hash !== "") {
       ev.preventDefault();
       var hash = this.hash;
