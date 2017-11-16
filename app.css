@@ -63,12 +63,6 @@ nav#myNav {
   height: 25vh;
   width: 100vw;
 }
-
-.page {
-  height: 100vh;
-  width: 100vw;
-  text-align: center;
-}
 .progress {
   margin: 0 auto 2rem auto;
   padding: 0;
@@ -96,4 +90,20 @@ nav#myNav {
   font-family: tahoma,arial,helvetica;
   font-size: 12px;
   color: white;
+
+.page {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+
+/* Other External Code */
+
+#cont {
+  /*margin: 20px;*/
+  width: 80%;
+  height: 8px;
+  position: relative;
+
 }

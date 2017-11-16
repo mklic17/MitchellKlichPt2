@@ -94,9 +94,15 @@ $(window).scroll(function () {
 
 });
 
+<<<<<<< Updated upstream
 $(".timeline-item").hover(function () {
     $(".timeline-item").removeClass("active");
     $(this).toggleClass("active");
     $(this).prev(".timeline-item").toggleClass("close");
     $(this).next(".timeline-item").toggleClass("close");
 });
+=======
+// Have the menu bar hidden when you first get to the page
+
+// External code
+>>>>>>> Stashed changes
