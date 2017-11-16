@@ -17,9 +17,6 @@ $('document').ready(function() {
     } else {
       x.style.display = "block";
     }
-
-
-
     if (this.hash !== "") {
       ev.preventDefault();
       var hash = this.hash;
@@ -31,5 +28,11 @@ $('document').ready(function() {
       }
   });
 });
+
+$(window).scroll(function() {
+  var x = $('.green')
+  // added a name to the span to try to grab it and loop to that as it's top
+})
+
 
 // Have the menu bar hidden when you first get to the page
