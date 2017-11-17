@@ -95,7 +95,7 @@ nav#myNav {
 .page {
   height: 100vh;
   width: 100vw;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 #interestImage {
