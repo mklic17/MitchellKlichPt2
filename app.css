@@ -118,3 +118,11 @@ nav#myNav {
   position: relative;
 
 }
+.educ {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.centered-text h5 {
+  text-align: center;
+}
